@@ -1,0 +1,33 @@
+{
+  "name": "myskill-portofolio",
+  "version": "1.0.0",
+  "description": "mocha chai petStore example",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha test/api/welcomeTest.js",
+    "test get": "mocha test/api/getExample.js",
+    "test post": "mocha test/api/postExample.js",
+    "test chai": "mocha test/api/chaiAssert.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilhmrrm/myskill-portofolio.git"
+  },
+  "author": "ilhmrrm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilhmrrm/myskill-portofolio/issues"
+  },
+  "homepage": "https://github.com/ilhmrrm/myskill-portofolio#readme",
+  "dependencies": {
+    "chai": "^5.0.0",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "node-fetch": "^3.3.2",
+    "supertest": "^6.3.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.7"
+  }
+}
